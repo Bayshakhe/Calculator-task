@@ -1,0 +1,55 @@
+<style>
+    *{
+      margin: 0%;
+      padding: 0%;
+      
+      
+    }
+    .calculator{
+      font-size: 0%;
+      margin-top: 200px;
+      width: 400px;
+      box-sizing: border-box;
+      margin: 0 auto;
+      border: 1px ;
+      box-shadow: 0px 8px 16px 0 rgba(0,0,0,0.5);
+      animation: 0.3s;
+    }
+    .calculator:hover{
+      box-shadow: 0px 16px 32px 0 rgba(0,0,0,0.8);
+      
+    }
+    h1{
+      text-align: center;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    input{
+      width: 100%;
+      height: 100px;
+      font-size: 40px;
+      font-weight: bold;
+      border: 2px solid skyblue;
+      text-align: right;
+      letter-spacing: 10px;
+    }
+    div > button{
+      align-items: center;
+      height: 80px;
+      width: 25%;
+      margin: 0px;
+      font-size: 25px;
+      background-color: black;
+      color: beige;
+      border: 2px solid white;
+      padding: 5px;
+
+    }
+    div > button:hover{
+      background-color: lightpink;
+    }
+    .different{
+      background-color: darkblue;
+    }
+
+  </style>
